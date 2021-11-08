@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+*, ::before, ::after{
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+*, header, footer, .div1, .div2, .div3 , .div4 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
+header, footer {
+    float: left;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    border: 3px solid black;
+    background: lightskyblue;
+}
+
+.div1 {
+    text-align: center;
+    width: 20%;
+    height: 500px;
+    float: left;
+    border: 3px solid black;
+    background: lightgoldenrodyellow;
+}
+.div2 {
+    text-align: center;
+    width: 40%;
+    height: 500px;
+    float: left;
+    border: 3px solid black;
+    background: lightgreen;
+}
+.div3 {
+    text-align: center;
+    width:20%;
+    height: 500px;
+    float: left;
+    border: 3px solid black;
+    background: lightpink;
+}
+.div4 {
+    float: left;
+    text-align: center;
+    width: 20%;
+    height: 500px;
+    border: 3px solid black;
+    background: lightsalmon;
+}
+
+/* ***************** For Ipad/Tablet **************** */
+@media (min-width: 581px) and (max-width: 868px) {
+    *, header, footer, .div1, .div2, .div3, .div4 {
+        font-size: 1.5rem;
+        font-weight: 400;
+        border: 2px solid black;
+    }
+    footer, header {
+        background: cornflowerblue;
+        height: 250px;
+    }
+    .div1 {
+        width: 30%;
+        background: gold;
+    }
+    .div2 {
+        width: 30%;
+        background: mediumaquamarine;
+    }
+    .div3 {
+        width: 40%;
+        background: palevioletred;
+    }
+    .div4 {
+        width: 100%;
+        background: indianred;
+    }
+}
+
+/* **************** For Mobile ****************** */
+
+@media (max-width: 580px){
+    *, header, footer, .div1, .div2, .div3, .div4 {
+        font-size: 1rem;
+        font-weight: 300;
+        border: 1px solid black;
+    }
+    footer, header {
+        background: darkcyan;
+        height: 200px;
+    }
+    .div1 {
+        width: 50%;
+        background: darkgoldenrod;
+    }
+    .div2 {
+        width: 50%;
+        background: darkgreen;
+    }
+    .div3 {
+        width: 50%;
+        background: darkmagenta;
+    }
+    .div4 {
+        width: 50%;
+        background:darkred;
+    }
+}
+
+
+
